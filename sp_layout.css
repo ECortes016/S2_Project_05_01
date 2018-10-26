@@ -45,7 +45,7 @@ a {
 }
 
 /* Page Header Styles */
-/* The  */
+/* The image within the haeder was floated to the left and sized down a little with a nav on the right side of it. */
 header img {
     display: block;
     width: 70%;
@@ -66,6 +66,7 @@ header a {
 
 
 /* Horizontal Navigation List Styles */
+/* Elements with the class 'horizontal' with a list nested inside was displayed horizontally */
 .horizontal li {
     display: block;
     width: 12.5%;
@@ -74,6 +75,8 @@ header a {
 
 
 /* Topics Styles */
+/* Elements with the id of 'topics' were displayed as a block and are now displayed in the center of the page because of the auto margin on the left and right. The first list within the ul#topics was moved a further away from the edges of the page and same with the last list  */
+
 #topics li {
     display: block;
     width: 20%;
@@ -98,6 +101,7 @@ ul#topics img {
 }
 
 /* HR Styles */
+/* The horizontal line underneath the images is changed to a smaller size due to the width change. */
 hr {
     width: 50%;
 }
